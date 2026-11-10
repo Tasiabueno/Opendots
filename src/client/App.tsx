@@ -280,7 +280,7 @@ export function App() {
             onChange={(e) => setAuth(e.target.value)}
             required
           />
-          <button className="primary">Unlock OpenDots</button>
+          <button className="primary">Unlock Alfred</button>
         </form>
         {error && (
           <p className="chat-error" role="alert">
@@ -308,7 +308,7 @@ export function App() {
       <nav className="icon-rail" aria-label="Workspace navigation">
         <button
           className="rail-brand"
-          aria-label="OpenDots home"
+          aria-label="Alfred home"
           onClick={() => {
             setView('chat');
             setSelectedThread(undefined);
@@ -381,7 +381,7 @@ export function App() {
             <i />
             <i />
           </span>
-          OpenDots<span className="wordmark-dot">•</span>
+          Alfred<span className="wordmark-dot">•</span>
         </button>
         <button
           className="new-chat nav-item"

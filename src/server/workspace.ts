@@ -74,7 +74,7 @@ export class WorkspaceStore {
       );
       this.createDot(
         space.id,
-        'Dot',
+        'Alfred',
         'Be thoughtful, practical, and concise. Help the user think clearly and follow through.',
         true,
         true,
